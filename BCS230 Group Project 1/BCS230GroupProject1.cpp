@@ -1,11 +1,20 @@
-// BCS230GroupProject1.cpp : Defines the entry point for the console application.
-//
+// BCS 230 Assignment 3
+// Driver Program
 
 #include "stdafx.h"
-
+#include "PatientAccount.h"
+#include <iostream>
+using namespace std;
 
 int main()
 {
+	PatientAccount patient;
+
+	//test functions of PatientAccount
+	patient.setDays(1);
+	cout << patient.getDays() << endl;
+	patient.addCharges(12345);
+	cout << patient.getCharges() << endl;
     return 0;
 }
 
