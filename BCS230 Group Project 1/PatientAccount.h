@@ -4,7 +4,7 @@
 class PatientAccount {
 private:
 	int totalFees;
-	int dailyRate = 2000;
+	int const dailyRate = 2000;
 	int daysInHospital;
 public:
 	PatientAccount() {
