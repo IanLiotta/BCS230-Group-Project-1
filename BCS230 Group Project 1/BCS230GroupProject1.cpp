@@ -1,5 +1,6 @@
 // BCS 230 Assignment 3
 // Driver Program
+//Edited by Scott K
 
 #include "stdafx.h"
 #include "PatientAccount.h"
