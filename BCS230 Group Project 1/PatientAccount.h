@@ -3,17 +3,17 @@
 
 class PatientAccount {
 private:
-	int totalFees;
-	int const dailyRate = 2000;
+	double totalFees;
+	double const dailyRate = 2000.0;
 	int daysInHospital;
 public:
 	PatientAccount() {
-		totalFees = 0;
+		totalFees = 0.0;
 		daysInHospital = 0;
 	}
 
-	void PatientAccount::addCharges(int);
-	int PatientAccount::getCharges() const;
+	void PatientAccount::addCharges(double);
+	double PatientAccount::getCharges() const;
 	void PatientAccount::setDays(int);
 	int PatientAccount::getDays() const;
 };

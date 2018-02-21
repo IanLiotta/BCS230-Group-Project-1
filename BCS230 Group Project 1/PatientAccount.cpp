@@ -8,11 +8,11 @@
 using namespace std;
 
 //increase totalFees by the amount charges
-void PatientAccount::addCharges(int charges) {
+void PatientAccount::addCharges(double charges) {
 	totalFees += charges;
 }
 
-int PatientAccount::getCharges() const {
+double PatientAccount::getCharges() const {
 	return totalFees;
 }
 //set days in spent in hospital and charge appropriate fees

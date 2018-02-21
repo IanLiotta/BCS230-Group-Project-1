@@ -15,7 +15,7 @@ int main()
 	//test functions of PatientAccount
 	patient.setDays(1);
 	cout << patient.getDays() << endl;
-	patient.addCharges(12345);
+	patient.addCharges(12345.67);
 	cout << patient.getCharges() << endl;
     return 0;
 }
