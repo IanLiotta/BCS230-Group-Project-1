@@ -8,11 +8,11 @@ private:
 	double appendectomyRate, biopsyRate, cataractRate, herniaRate, thyroidRate;
 public:
 	Surgery() {
-		appendectomyRate = 3.00;
-		biopsyRate = 3.00;
-		cataractRate = 3.00;	
-		herniaRate = 3.00;
-		thyroidRate = 3.00;
+		appendectomyRate = 33000.00;
+		biopsyRate = 3300.00;
+		cataractRate = 3400.00;	
+		herniaRate = 5800.00;
+		thyroidRate = 15000.00;
 	}
 
 	// mutator and accessor prototypes for the following member variables
