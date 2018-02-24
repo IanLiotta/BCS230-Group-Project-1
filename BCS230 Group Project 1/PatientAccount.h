@@ -1,6 +1,9 @@
 //BCS 230 Assignment 3
 //Written by Ian Liotta
 
+#ifndef PATIENTACCOUNT_H
+#define PATIENTACCOUNT_H
+
 class PatientAccount {
 private:
 	double totalFees;
@@ -17,3 +20,5 @@ public:
 	void PatientAccount::setDays(int);
 	int PatientAccount::getDays() const;
 };
+
+#endif // !PATIENTACCOUNT_H

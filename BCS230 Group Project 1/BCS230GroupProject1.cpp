@@ -2,7 +2,7 @@
 // Driver Program
 // Edited by Scott K
 
-//Pharmacy, doSurgery, prescribeMeds currently dummied out! - Ian
+//Pharmacy, prescribeMeds currently dummied out! - Ian
 
 #include "stdafx.h"
 #include "PatientAccount.h"
@@ -40,13 +40,10 @@ int main()
 		cout << "\n";
 		cout << "What surgey did you have?: ";
 		cin >> input;
-		cout << patient.getCharges() << endl; //before
 
 		if (input > 0 && input < 6)
 			surgeries.doSurgery(patient, input);
-			cout << input << endl;
 	} while (input <= 0 || input >= 6);
-	cout << patient.getCharges() << endl; //after
 
 	//Medication Menu
 	do
@@ -77,6 +74,5 @@ int main()
 	//Display Total Charge
 	cout << "Total charges: " << patient.getCharges() << endl;
 
-	system("pause");
 	return 0;
 }
