@@ -3,6 +3,8 @@ BCS 230 Assignment 3
 Author: Anthony Jaghab
 */
 
+#include "PatientAccount.h"
+
 class Surgery {
 private:
 	double appendectomyRate, biopsyRate, cataractRate, herniaRate, thyroidRate;
@@ -27,5 +29,6 @@ public:
 	void Surgery::setHerniaRate(double);
 	double Surgery::getThyroidRate() const;
 	void Surgery::setThyroidRate(double);
+	void Surgery::doSurgery(PatientAccount&, int);
 	
 };

@@ -40,13 +40,13 @@ int main()
 		cout << "\n";
 		cout << "What surgey did you have?: ";
 		cin >> input;
+		cout << patient.getCharges() << endl; //before
 
 		if (input > 0 && input < 6)
-// PLACEHOLDER
-			//	doSurgery(patient, input);
+			surgeries.doSurgery(patient, input);
 			cout << input << endl;
 	} while (input <= 0 || input >= 6);
-
+	cout << patient.getCharges() << endl; //after
 
 	//Medication Menu
 	do
