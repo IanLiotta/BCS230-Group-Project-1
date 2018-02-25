@@ -30,6 +30,9 @@
     <ClInclude Include="Surgery.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Pharmacy.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -42,6 +45,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Surgery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pharmacy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

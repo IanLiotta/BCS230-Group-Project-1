@@ -2,13 +2,10 @@
 // Driver Program
 // Edited by Scott K
 
-//Pharmacy, prescribeMeds currently dummied out! - Ian
-
 #include "stdafx.h"
 #include "PatientAccount.h"
 #include "Surgery.h"
-//PLACEHOLDER
-//#include "Pharmacy.h"
+#include "Pharmacy.h"
 #include <iostream>
 using namespace std;
 
@@ -18,8 +15,7 @@ int main()
 
 	//Objects
 	PatientAccount patient;
-// PLACEHOLDER
-	//Pharmacy meds;
+	Pharmacy meds;
 	Surgery surgeries;
 
 	//Variables
@@ -61,9 +57,7 @@ int main()
 		cin >> medicineOption;
 
 		if (medicineOption > 0 && medicineOption < 6)
-// PLACEHOLDER
-			//	prescribeMed(patient, medicineOption);
-			cout << medicineOption << endl;
+			meds.addCharges(patient, medicineOption);
 	} while (medicineOption != 0);
 
 	//How long the User stayed
